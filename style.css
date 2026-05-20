@@ -199,6 +199,35 @@
             color: #fff;
         }
 
+        .link-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--surface2);
+            color: var(--accent);
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 15px;
+            transition: all 0.3s;
+            margin-bottom: 20px;
+            border: 1px solid var(--border);
+            direction: ltr;
+        }
+
+        .link-btn:hover {
+            background: var(--accent);
+            color: #fff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px var(--accent-glow);
+        }
+
+        .link-btn svg {
+            width: 18px;
+            height: 18px;
+        }
+
         .highlight-box {
             background: var(--accent-glow);
             border-right: 4px solid var(--accent);
